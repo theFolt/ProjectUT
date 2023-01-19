@@ -3,6 +3,7 @@ import "../styles/global.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Container, Navbar, Button } from "react-bootstrap";
 import { removeUserSession } from '../utils/session';
+import { useState } from "react";
 
 export default function HomePage() {
 
@@ -24,6 +25,7 @@ export default function HomePage() {
           </Navbar>
           <div>
             Dane użytkownika:
+          
           </div>
         </div>
       </div>
